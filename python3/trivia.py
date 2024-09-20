@@ -143,9 +143,12 @@ class Game:
         return not (self.purses[self.current_player] == 6)
 
 
-from random import randrange
+from random import randrange, seed
+import sys
 
 if __name__ == '__main__':
+    seed(sys.argv[1])
+
     not_a_winner = False
 
     game = Game()
