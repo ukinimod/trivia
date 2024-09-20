@@ -5,7 +5,9 @@
     <artifactId>uglytrivia</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
-
+    <properties>
+            <exec.mainClass>com.adaptionsoft.games.trivia.runner.GameRunner</exec.mainClass>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
